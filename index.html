@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品网页</title>
+	</head>
+	<body background="img/geometric-1732847_1280.webp">
+		<script>
+			alert("欢迎光临！")
+		</script>
+		<style>
+			body{
+				background-size: 100%;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+			}
+			*{
+				margin:0 ;
+				padding:0;
+			}
+			.tou{
+				height:60px;
+				background-color: lightblue;
+			}			
+nav {
+            	width: 800px;
+    height: 60px;
+    background-color: lightblue;
+}
+
+nav p {
+    font-family: arial;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 55px;
+    padding: 0 20px;
+    float: left;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a:hover{
+	color: red;
+	border-bottom: solid deepskyblue 5px;
+}
+nav ul li a:checked{
+	color: black;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    font-size: 18px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 160px;
+    border-radius: 4px;
+}
+
+nav ul li ul li a {
+    padding: 8px 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color: lightcyan;
+    border-bottom:solid 2px skyblue;
+}			
+			nav p{
+				font-size:30px;
+			}
+			.banner{
+				height:400px;
+				width:900px;
+				background-color: pink;
+				background-image: url(img/15794045421692380.jpg);
+				background-size: 100%;
+				background-repeat: no-repeat;
+				margin: 0 auto;
+			}  
+            a{
+            	text-decoration: none;
+            }
+            .side a:hover{
+            	color: yellow;
+            }
+            .side{
+            	position: fixed;
+            	background-color:dodgerblue;
+            	width:96px;
+            	border-radius: 10%;            	
+            	left:0;
+            	top:37.2%;
+            	box-shadow: 1px 1px 10px 1px black;
+            }
+            .side a{
+            	padding: 3px;
+            	text-align: center;
+    	        font-size: 18px;
+    	        display: inline-block;
+            	text-decoration: none;
+            	color: white;
+            	text-shadow: 0px 1px 1px black;
+            }
+            .goods{
+            	margin: 100px auto 50px;
+            	width:1230px;
+            	height:810px;
+            	display: flex;
+            	background-color: lightgrey;
+                justify-content:space-between;
+                flex-wrap: wrap;
+                align-content: space-between;
+            }
+            .goods span{
+            	width:300px;
+            	height:400px;
+            	background-color: whitesmoke;
+            }
+            .g1{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN018xPgaG1GSuxva0D2U_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);
+            }
+            .g1 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g1-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g1-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+            .g2{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01j0LXkZ2I218aOdyif_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .g2 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g2-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g2-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .g3{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01McsmoM271azVF6YYx_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .g3 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g3-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g3-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }         
+            .g4{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01QvvMMd2A2SbLrYiMu_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .g4 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g4-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g4-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .g5{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01sA6fMl1cr7TVF6ihx_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .g5 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g5-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g5-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            } 
+            .g6{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01IjiBXc2EcsYlwLZfw_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .g6 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g6-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g6-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }       
+            .g7{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01dkHuG31CLLvtkgZnv_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .g7 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g7-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g7-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }   
+            .g8{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01kHgXXQ1yjicOBdi7l_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .g8 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .g8-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .g8-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }      
+                   
+                   
+                   
+             .j1{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01f0an7N2I217HAISyN_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);
+            }
+            .j1 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j1-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j1-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+            .j2{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01golXOU1DElrY8E3Br_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .j2 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j2-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j2-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .j3{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01KUmptw1YYYwy3S81w_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .j3 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j3-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j3-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }         
+            .j4{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01kZhGQZ25YuXeg5REG_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .j4 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j4-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j4-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .j5{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01rFUzT62JNpTTmZRtL_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .j5 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j5-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j5-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            } 
+            .j6{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01sMmu3T2MSomizGh1C_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .j6 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j6-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j6-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }       
+            .j7{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN011sqsT71yjici00s0Z_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .j7 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j7-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j7-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }   
+            .j8{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01XrRmaZ1F2yxM6vxtV_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .j8 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .j8-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .j8-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }                       
+ 
+ 
+ 
+             .y1{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01A3Hby31Xw5gxvzIct_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);
+            }
+            .y1 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y1-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y1-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+            .y2{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01KdKvtp2H93cGD7V2B_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .y2 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y2-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y2-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .y3{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01LA6pte1y6KYfdFVFG_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .y3 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y3-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y3-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }         
+            .y4{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01loj7GW1XVz5E6WI2J_!!0-saturn_solar.jpg_468x468q75.jpg_.webp)            	
+            }
+             .y4 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y4-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y4-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .y5{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01olmKSI29r0euQG6qt_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .y5 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y5-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y5-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            } 
+            .y6{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01YlDqWE1fFyA5TDbrI_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .y6 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y6-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y6-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }       
+            .y7{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN010Ovp1x29r0f5gnM1a_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .y7 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y7-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y7-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }   
+            .y8{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN016UXDFT2H93cJK1dQR_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .y8 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .y8-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .y8-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }  
+
+
+
+             .s1{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01haFJHN22hfJ4KobIm_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);
+            }
+            .s1 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s1-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s1-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+            .s2{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01in0sM61oCbnZ3uUse_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .s2 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s2-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s2-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .s3{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01ko8Nrn24XhtmAWU9c_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .s3 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s3-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s3-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }         
+            .s4{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01ZP9op228n3e0mdHma_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .s4 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s4-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s4-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .s5{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN013c4mpR2CJWabQ67Vx_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .s5 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s5-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s5-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            } 
+            .s6{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN0187MCYk1eG8j9TNGOf_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .s6 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s6-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s6-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }       
+            .s7{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01nb424J278SvS0k2VO_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .s7 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s7-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s7-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }   
+            .s8{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01dB1GbD2I218qq0wxT_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .s8 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .s8-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .s8-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+
+
+
+             .e1{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01GaDC0y1syTfF50R61_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);
+            }
+            .e1 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e1-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e1-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }
+            .e2{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01jAmIeW1aBmRFNLj7n_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .e2 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e2-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e2-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .e3{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01pq8o5M1qpCQHLKVhh_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .e3 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e3-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e3-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }         
+            .e4{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01PqaRNS2JNpXVKnpBl_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .e4 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e4-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e4-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }           
+            .e5{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN01ynFd6o1g6dgFcW0ci_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+             .e5 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e5-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e5-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            } 
+            .e6{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN015SsMOU1DC1WrPCliW_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .e6 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e6-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e6-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }       
+            .e7{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN019Jj96223op5CQlIFt_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .e7 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e7-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e7-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }   
+            .e8{
+            	background-size:100% ;
+            	background-repeat: no-repeat;
+            	background-image: url(img/O1CN0192HklP25YuaMiflu8_!!0-saturn_solar.jpg_468x468q75.jpg_.webp);            	
+            }
+            .e8 p{
+            	position:relative ;
+            	top: 78%;
+            	left:1%;
+            }
+            .e8-1{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+             	line-height: 40px;           
+             	position: relative;  	
+             	top:78%;
+            }
+            .e8-2{
+            	height: 40px;
+            	width: 80px;
+            	float: left;
+            	line-height: 40px;  
+            	position: relative;     
+              	top:78%;           	 	
+            }                                           
+            h3{
+            	color: orange;
+            	display: block;
+            }
+            h4{
+            	text-decoration: line-through;
+            	color: darkgrey;
+            }
+            span:hover{
+            	box-shadow: 2px 2px 5px 1px lightslategray;
+            }
+		</style>
+		
+		<div class="tou">
+		<nav>
+        <p id="back">WEBSITES</p>
+        <ul>
+            <li><a href="http://leslie123456.gitee.io/big-assignment">首页</a></li>
+            <li><a href="http://leslie123456.gitee.io/website">公司网站</a></li>
+            <li><a href="http://leslie123456.gitee.io/product-website">商品网站</a></li>
+            <li><a>相关</a>
+                <ul>
+                    <li><a href="http://leslie123456.gitee.io/business-plan">创业计划书</a></li>
+                    <li><a href="http://leslie123456.gitee.io/cooperative-partner">合作伙伴</a></li>
+                </ul>
+            </li>            
+        </ul>     
+        </nav>			
+		</div>
+
+        
+        <div class="side">
+        	    <a href="#one">电竞鼠标</a></li>
+				<a href="#two">电竞键盘</a>
+				<a href="#three">电竞椅</a>
+				<a href="#four">电竞鼠标垫</a>
+				<a href="#five">电竞耳机</a>	
+				<a href="#back">回到顶部</a>
+        </div>       		           	
+		<div class="banner">
+		</div>	
+		<div class="goods" id="one">
+			<span class="g1">
+				<p>罗技G102有线RGB电竞游戏鼠标LOL绝地吃鸡宏编程apex英雄CF逆战</p>
+				<div class="g1-1">
+				<h3>¥109.00</h3>	
+				</div>
+				<div class="g1-2">
+				<h4>¥309.00</h4>					
+				</div>
+			</span>
+			<span class="g2">
+				<p>专业电竞鼠标有线机械游戏宏鼠标笔记本吃鸡台式穿越火线cf家用lol网吧电脑大...</p>
+				<div class="g2-1">
+				<h3>¥29.80</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥99.00</h4>					
+				</div>
+			</span>
+			<span class="g3">
+				<p>Razer雷蛇炼狱蝰蛇标准电竞专业lol专用cf吃鸡有线机械游戏鼠标宏</p>
+				<div class="g2-1">
+				<h3>¥99.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥169.00</h4>					
+				</div>				
+			</span>
+			<span class="g4">
+				<p>顺丰罗技g502hero游戏鼠标rgb电竞专用机械502熊猫版se主宰者有线CF穿越火...</p>
+				<div class="g2-1">
+				<h3>¥289.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥589.00</h4>					
+				</div>				
+			</span>
+			<span class="g5">
+				<p>【官方旗舰店】罗技G402游戏鼠标有线8键可编辑宏电竞专用LOL魔兽世界吃鸡...</p>
+				<div class="g2-1">
+				<h3>¥239.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥999.00</h4>					
+				</div>				
+			</span>
+			<span class="g6">
+				<p>官方旗舰店罗技gpro wireless无线有线双模机械电竞游戏鼠标狗屁王gpw...</p>
+				<div class="g2-1">
+				<h3>¥799.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥1000.00</h4>					
+				</div>				
+			</span>
+			<span class="g7">
+				<p>飞利浦鼠标有线USB办公游戏cf专用机械电竞lol商务笔记本静音无声台式电脑...</p>
+				<div class="g2-1">
+				<h3>¥19.90</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥39.00</h4>					
+				</div>				
+			</span>
+			<span class="g8">
+				<p>官方旗舰店 罗技g502 hero有线电竞游戏鼠标g502主宰RGB吃鸡宏加重机械lol...</p>
+				<div class="g2-1">
+				<h3>¥379.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥499.00</h4>					
+				</div>				
+			</span>
+		</div>	
+		
+		
+		
+		<div class="goods" id="two">
+			<span class="j1">
+				<p>新盟蒸汽朋克机械键盘鼠标套装电脑外设电竞游戏键鼠茶轴青轴黑轴耳机有线二...</p>
+				<div class="g1-1">
+				<h3>¥109.00</h3>	
+				</div>
+				<div class="g1-2">
+				<h4>¥299.00</h4>					
+				</div>
+			</span>
+			<span class="j2">
+				<p>前行者蒸汽朋克机械键盘无线女生可爱青轴黑轴游戏复古粉色少女心办公专用打...</p>
+				<div class="g2-1">
+				<h3>¥119.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥299.00</h4>					
+				</div>
+			</span>
+			<span class="j3">
+				<p>罗技G213 RGB背光游戏键盘鼠标套装电竞有线键盘机械手感静音办公搭G102 ...</p>
+				<div class="g2-1">
+				<h3>¥329.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥359.00</h4>					
+				</div>				
+			</span>
+			<span class="j4">
+				<p>HP惠普K10G电竞机械键盘青轴黑轴茶轴红轴游戏专用台式笔记本电脑办公有...</p>
+				<div class="g2-1">
+				<h3>¥139.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥299.00</h4>					
+				</div>				
+			</span>
+			<span class="j5">
+				<p>【顺丰包邮】HP/惠普 GK100机械键盘青轴黑轴茶轴红轴台式笔记本电脑办...</p>
+				<div class="g2-1">
+				<h3>¥119.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥239.00</h4>					
+				</div>				
+			</span>
+			<span class="j6">
+				<p>Razer雷蛇黑寡妇蜘蛛标准版电竞电脑游戏背光机械轴键盘鼠标套装</p>
+				<div class="g2-1">
+				<h3>¥599.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥599.00</h4>					
+				</div>				
+			</span>
+			<span class="j7">
+				<p>官方旗舰店罗技G913无线电竞游戏超薄机械键盘吃鸡g913tkl红青茶轴矮轴...</p>
+				<div class="g2-1">
+				<h3>¥1999.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥1999.00</h4>					
+				</div>				
+			</span>
+			<span class="j8">
+				<p>黑爵AK35i可爱女生粉色游戏机械键盘鼠标套装青黑红轴茶轴lol吃鸡</p>
+				<div class="g2-1">
+				<h3>¥259.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥559.00</h4>					
+				</div>				
+			</span>
+		</div>		
+		
+		
+		<div class="goods" id="three">
+			<span class="y1">
+				<p>电脑椅子家用靠背办公椅宿舍学生游戏转椅可躺电竞座椅人体工学椅</p>
+				<div class="g1-1">
+				<h3>¥139.00</h3>	
+				</div>
+				<div class="g1-2">
+				<h4>¥278.00</h4>					
+				</div>
+			</span>
+			<span class="y2">
+				<p>DXRacer迪锐克斯[模块化电竞椅]网吧舒适电脑椅游戏加大办公椅子</p>
+				<div class="g2-1">
+				<h3>¥1499.0</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥4699.00</h4>					
+				</div>
+			</span>
+			<span class="y3">
+				<p>AutoFull傲风电竞椅游戏椅家用舒适座椅老板椅升降椅子靠背电脑椅</p>
+				<div class="g2-1">
+				<h3>¥998.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥3999.00</h4>					
+				</div>				
+			</span>
+			<span class="y4">
+				<p>黑白调电脑椅家用舒适人体工学椅电竞椅游戏椅转椅椅子靠背办公椅</p>
+				<div class="g2-1">
+				<h3>¥369.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥1430.00</h4>					
+				</div>				
+			</span>
+			<span class="y5">
+				<p>八九间学生学习写字椅子简约电脑椅书房书桌家用办公转椅舒适久坐</p>
+				<div class="g2-1">
+				<h3>¥439.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥1097.00</h4>					
+				</div>				
+			</span>
+			<span class="y6">
+				<p>电脑桌台式家用简约卧室游戏桌电竞桌椅组合套装办公桌书桌小桌子</p>
+				<div class="g2-1">
+				<h3>¥128.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥276.00</h4>					
+				</div>				
+			</span>
+			<span class="y7">
+				<p>八九间人体工学电脑椅子电竞办公椅家用学习学生椅舒适工程学座椅</p>
+				<div class="g2-1">
+				<h3>¥599.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥1498.00</h4>					
+				</div>				
+			</span>
+			<span class="y8">
+				<p>DXRacer迪瑞克斯[高性价比]电竞椅家用舒适游戏竞技椅升降电脑锐</p>
+				<div class="g2-1">
+				<h3>¥949.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥3999.00</h4>					
+				</div>				
+			</span>
+		</div>		
+
+
+
+		<div class="goods" id="four">
+			<span class="s1">
+				<p>QCK电竞游戏鼠标垫超大号FPS适用Xtrfy灰狗csgo吃鸡nip定制GP4</p>
+				<div class="g1-1">
+				<h3>¥28.00</h3>	
+				</div>
+				<div class="g1-2">
+				<h4>¥28.00</h4>					
+				</div>
+			</span>
+			<span class="s2">
+				<p>游戏鼠标垫超大加厚网咖电竞英雄联盟LOL同人键盘垫办公桌垫定制</p>
+				<div class="g2-1">
+				<h3>¥18.80</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥37.60</h4>					
+				</div>
+			</span>
+			<span class="s3">
+				<p>电脑鼠标垫超大号键盘个性创意笔记本定制订做电竞游戏桌面女桌垫</p>
+				<div class="g2-1">
+				<h3>¥19.80</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥24.75</h4>					
+				</div>				
+			</span>
+			<span class="s4">
+				<p>鼠标垫超大号定制游戏电竞动漫电脑女办公快捷键大去哪桌垫键盘垫子</p>
+				<div class="g2-1">
+				<h3>¥9.90</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥9.90</h4>					
+				</div>				
+			</span>
+			<span class="s5">
+				<p>德国Cherry樱桃电竞游戏鼠标垫布面锁边加厚大号粗细面桌面鼠标键盘垫...</p>
+				<div class="g2-1">
+				<h3>¥25.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥35.00</h4>					
+				</div>				
+			</span>
+			<span class="s6">
+				<p>Seihoo树脂硬质鼠标垫小号电竞吃鸡笔记本电脑办公滑鼠垫日历定制</p>
+				<div class="g2-1">
+				<h3>¥15.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥40.00</h4>					
+				</div>				
+			</span>
+			<span class="s7">
+				<p>骨伽速度版EX鼠标垫电竞专业 加厚锁边微涂层大号中号游戏鼠标垫</p>
+				<div class="g2-1">
+				<h3>¥88.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥138.00</h4>					
+				</div>				
+			</span>
+			<span class="s8">
+				<p>发光鼠标垫超大游戏电竞rgb桌面垫电脑笔记本充电加厚英雄联盟桌垫大...</p>
+				<div class="g2-1">
+				<h3>¥27.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥199.00</h4>					
+				</div>				
+			</span>
+		</div>
+
+
+
+
+		<div class="goods" id="five">
+			<span class="e1">
+				<p>HP/惠普 电脑游戏耳机头戴式电竞吃鸡cf专用7.1声道听声辩位有线耳麦带麦克风...</p>
+				<div class="g1-1">
+				<h3>¥79.00</h3>	
+				</div>
+				<div class="g1-2">
+				<h4>¥129.00</h4>					
+				</div>
+			</span>
+			<span class="e2">
+				<p>游戏吃鸡耳机入耳式电脑台式笔记本手机通用重低音炮电竞耳麦听声辩位绝地...</p>
+				<div class="g2-1">
+				<h3>¥58.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥108.00</h4>					
+				</div>
+			</span>
+			<span class="e3">
+				<p>因卓G2000电脑耳机头戴式耳麦电竞游戏专用台式机笔记本有线7.1声道绝地...</p>
+				<div class="g2-1">
+				<h3>¥69.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥99.00</h4>					
+				</div>				
+			</span>
+			<span class="e4">
+				<p>HP/惠普 电脑游戏耳机头戴式电竞吃鸡cf专用7.1声道听声辩位有线耳麦带麦...</p>
+				<div class="g2-1">
+				<h3>¥79.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥129.00</h4>					
+				</div>				
+			</span>
+			<span class="e5">
+				<p>漫步者G30台式电脑耳机头戴式电竞游戏吃鸡降噪耳麦听声辩位绝地求生手机...</p>
+				<div class="g2-1">
+				<h3>¥119.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥219.00</h4>					
+				</div>				
+			</span>
+			<span class="e6">
+				<p>【吃鸡主播推荐】黑鲨游戏耳机入耳式听声辩位7.1电竞专用和平精英手机电脑...</p>
+				<div class="g2-1">
+				<h3>¥39.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥88.00</h4>					
+				</div>				
+			</span>
+			<span class="e7">
+				<p>漫步者GM360四核双动圈耳机入耳式有线高音质手机吃鸡游戏电竞专用重低音听...</p>
+				<div class="g2-1">
+				<h3>¥129.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥299.00</h4>					
+				</div>				
+			</span>
+			<span class="e8">
+				<p>hp惠普旗舰店头戴式电脑耳机有线耳麦电竞吃鸡游戏专用笔记本手机台式usb...</p>
+				<div class="g2-1">
+				<h3>¥119.00</h3>	
+				</div>
+				<div class="g2-2">
+				<h4>¥399.00</h4>					
+				</div>				
+			</span>
+		</div>
+
+	</body>
+</html>
